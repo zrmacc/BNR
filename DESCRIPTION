@@ -1,0 +1,20 @@
+Package: BNR
+Title: Bivariate Normal Regression
+Version: 0.0.1
+Authors@R: person("Zachary", "McCaw", email = "zmccaw@alumni.harvard.edu", role = c("aut", "cre"))
+Description: Performs estimation and inference for bivariate normal regression models.
+Depends: R (>= 3.4.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+LinkingTo:
+	Rcpp,
+	RcppEigen
+Imports:
+	methods,
+	Rcpp,
+	stats
+RoxygenNote: 6.1.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
